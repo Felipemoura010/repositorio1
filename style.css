@@ -27,8 +27,18 @@ body{
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
     }
+    #box {
+        text-align: center;
+        padding: 32px;
+    
+    }
+    #box img {
+        border-radius: 50%;
+        border: 5px solid chocolate;
+        margin-bottom: 32px;
+    }
     header div a:hover {
-        color: green;
+        color: chocolate;
         transition: color 700ms;
     }
     #box h1 {
@@ -70,4 +80,31 @@ text-decoration: none;
         transition: 600ms;
         font-size: 23px;
     }
+     
+    #box h1 {
+        padding: 4px;
     
+    }
+
+    #box h2 {
+        padding: 10px;
+    
+    }
+    #box p:hover {
+        font-size: 23px;
+    
+    }
+    #box a {
+        color: var(--subcor);
+        transition: 600ms;
+    }
+    #linksfooter {
+        padding-top: 32px;
+    
+    }
+    #linksfooter a {
+        padding-top: 32px;
+        padding-bottom: 8px;
+        border-bottom: 3px solid var(--subcor);
+
+    }
